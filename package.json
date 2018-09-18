@@ -1,0 +1,18 @@
+{
+  "name": "mss_element_ui",
+  "version": "1.0.0",
+  "description": "custom element-ui for mss ci",
+  "main": "index.js",
+  "repository":  {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ElemeFE/element.git"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "mss"
+  ],
+  "author": "xuankong",
+  "license": "ISC"
+}
