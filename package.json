@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository":  {
     "type": "git",
-    "url": "git+ssh://git@github.com/ElemeFE/element.git"
+    "url": "git+ssh://git@github.com:salchemist/mss_elment_ui.git"
   },
   "scripts": {
     "test": "npm test"
