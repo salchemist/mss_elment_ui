@@ -1,18 +1,30 @@
 {
   "name": "mss_element_ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "custom element-ui for mss ci",
   "main": "index.js",
   "repository":  {
     "type": "git",
     "url": "git+ssh://git@github.com:salchemist/mss_elment_ui.git"
   },
+	"dependencies": {
+	"async-validator": "~1.8.1",
+	"babel-helper-vue-jsx-merge-props": "^2.0.0",
+	"deepmerge": "^1.2.0",
+	"normalize-wheel": "^1.0.1",
+	"throttle-debounce": "^1.0.1"
+	},
+
   "scripts": {
     "test": "npm test"
   },
   "keywords": [
     "mss"
   ],
+
   "author": "xuankong",
   "license": "ISC"
+  "style": "lib/theme-chalk/index.css",
+  "typings": "types/index.d.ts",
+  "unpkg": "src/index.js",
 }
